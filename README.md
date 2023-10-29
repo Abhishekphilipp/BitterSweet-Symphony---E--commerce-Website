@@ -1,1 +1,1 @@
-# BitterSweet-Symphony---E--commerce-Website It's an e-commerce website built with JS, Node and Express, offering a seamless online shopping experience with product listings and secure checkout functionality. Also JSAP is used  to make moving elements
+
