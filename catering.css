@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+}
+#nav{
+    height: 12vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    margin: 0 auto;
+    padding-top: 1vw;
+}
+.left img{
+    height: 100px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.right a {
+    font-family:  Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.welcome{
+    margin:1.5vw 0;
+height: 40vh;
+width: 100%;
+background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/d3b249074f2d48c89939f0c1e399cf29_1728w.jpg");
+background-position: center;
+
+display: flex;
+align-items: center;
+font-family: futura;
+color: white;
+font-size: 3vw;
+padding: 0 15vw;
+text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 5vw;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: futura;
+    height: 20vw;
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 5px;
+    /* filter: brightness(85%); */
+    background-size: cover;
+    
+}
+.box h2{
+    margin: 0 1.9vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+#box1{
+    background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/4939e2b798144b38a1ca3c82d7e786ca_540w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box2{
+    background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/47c75ba80311419e8788a5c55d4819b2_540w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box3{
+    background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/4b33d15726b84f6191ed1854920dc078_540w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box4{
+    background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/e9195c0c75234206882609e9ba58dd77_540w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#box5{
+    background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/5b0c0f74e0094aea83fd1678a7220f38_540w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box6{
+    background-image: url("https://az727718.vo.msecnd.net/c34bf49efec4419a808454d753e542b5/images/2fe474c5452245848cdbd0df8b453ca1_540w.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    font-family: futura;
+    font-size: 0.8vw;
+}
